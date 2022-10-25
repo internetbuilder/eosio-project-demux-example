@@ -5,11 +5,11 @@
   "dependencies": {
     "axios": "^0.18.0",
     "eosjs": "^20.0.0-beta3",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "prop-types": "^15.6.2",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
-    "react-scripts": "^2.1.5",
+    "react-scripts": "^5.0.0",
     "socket.io-client": "^2.1.1"
   },
   "scripts": {
