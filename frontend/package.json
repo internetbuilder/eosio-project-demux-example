@@ -5,7 +5,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "eosjs": "^20.0.0-beta3",
-    "node-sass": "^4.11.0",
+    "node-sass": "^9.0.0",
     "prop-types": "^15.6.2",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
