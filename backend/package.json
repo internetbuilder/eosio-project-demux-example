@@ -6,7 +6,9 @@
   "scripts": {
     "start": "nodemon --exec babel-node src/index.js",
     "build": "babel src -s -D -d dist",
-    "lint": "standard | snazzy"
+    "lint": "standard | snazzy",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "cors": "^2.8.4",
@@ -16,7 +18,8 @@
     "express": "^4.16.3",
     "mongodb": "^3.1.1",
     "mongoose": "^5.4.10",
-    "socket.io": "^2.1.1"
+    "socket.io": "^2.1.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
@@ -30,5 +33,6 @@
   },
   "standard": {
     "parser": "babel-eslint"
-  }
+  },
+  "snyk": true
 }
