@@ -13,9 +13,9 @@
     "demux": "^2.0.0",
     "demux-eos": "^2.0.0",
     "dotenv": "^6.0.0",
-    "express": "^4.16.3",
+    "express": "^4.21.2",
     "mongodb": "^3.1.1",
-    "mongoose": "^5.4.10",
+    "mongoose": "^8.8.3",
     "socket.io": "^2.1.1"
   },
   "devDependencies": {
